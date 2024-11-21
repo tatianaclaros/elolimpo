@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">webF1Movil1704</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="nosotros">Nosotros</string>
+    <string name="textOlimpo">EL OLIMPO</string>
+    <string name="button2">Contactos</string>
+    <string name="button3">Productos</string>
+    <string name="hint_latitud">Latitud</string>
+    <string name="hint_longitud">Longitud</string>
+    <string name="proc">Volver</string>
+    <string name="mapa">Toque el puntero</string>
+    <string name="texlimpo">Daniel Andres Cepeda. Asesor comercial</string>
+    <string name="texlim">La empresa se especializa en la venta de lotes en diversos condominios, ofreciendo
+    alta variedad de opciones en ubicaciones estrategicas. Ademas, actua como intermediaria para el alguiler
+    de casas campestres situadas dentro de estos mismo condominios, facilitando a los clientes tanto la compra
+    de terrenos como el acceso a propiedades exclusivaspara vaciones o residencias temporales en entornos naturales
+        y tranquilos. Con un enfoque de brindar soluciones personalizadas, la empresa se destaca por conectar a los
+        compradores y arrendatarios con las mejores opciones dentro de estos desarrollos.
+    </string>
+    <string name="texlime"> Construye la casa de tus sueños</string>
+    <string name="product_price1"> Desde 78.000.000,
+        hermoso condominio campestre de lotes desde 300 metros cuadrados</string>
+    <string name="product_price2">Hermosos lotes para fincas agroturísticas, 70.000.000</string>
+    <string name="product_price3">Hermosa parcelacion lotes en conjunto cerrado, desde 42.000.000,
+        lotes de 105 metros cuadrados de 7.50 metros de frente X 14 metros de Fondo</string>
+
+
+</resources>

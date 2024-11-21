@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/A3F0EBFF"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp">
+
+
+    <Button
+        android:id="@+id/buttonEmail"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="@color/D96F6FFF"
+        android:text="Enviar correo"
+        app:layout_constraintBottom_toTopOf="@+id/ubicacionmap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <Button
+        android:id="@+id/buttonWhatsApp"
+        android:layout_width="198dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="@color/green"
+        android:text="Enviar WhatsApp"
+        app:layout_constraintBottom_toTopOf="@+id/volverinicio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.706" />
+
+    <Button
+        android:id="@+id/ubicacionmap"
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:padding="10dp"
+        android:text="Ubicacion de la oficina"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="358dp"
+        android:layout_height="544dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/andr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/volverinicio"
+        android:layout_width="121dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:padding="10dp"
+        android:text="Volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

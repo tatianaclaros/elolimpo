@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul"
+    tools:context=".activity2">
+
+    <TextView
+        android:id="@+id/textlimpo"
+        android:layout_width="225dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/cuadrodetexto"
+        android:drawablePadding="10dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="8"
+        android:shadowDy="8"
+        android:text="@string/texlimpo"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textlimp"
+        android:layout_width="395dp"
+        android:layout_height="332dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/cuadrodetexto"
+        android:drawablePadding="10dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:lineSpacingMultiplier="2.0"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="8"
+        android:shadowDy="8"
+        android:text="@string/texlim"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textlime"
+        android:layout_width="403dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="16dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="8"
+        android:shadowDy="8"
+        android:text="@string/texlime"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/nosot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="318dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/blue"
+        android:text="Volver"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textlime"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView3"
+        android:layout_width="127dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="276dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/roundedCorners"
+        app:srcCompat="@drawable/imagen"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
